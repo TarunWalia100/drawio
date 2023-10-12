@@ -1,0 +1,142 @@
+<mxfile host="Electron" modified="2023-10-12T09:47:38.866Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="INJzW0dm2CdWdc3APSIs" version="22.0.2" type="device" pages="7">
+  <diagram id="OPA-bchj1YfF6RYFjutc" name="Concepts">
+    <mxGraphModel dx="1585" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H_BW4GDWvCczrrmpcXVL-3" value="A typical supply chain usually has both fulfillment centers and distribution centers. The distribution center is a transit hub for goods as they change the mode of transport. Instead, the fulfillment center holds the products before they are shipped to customers." style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="-580" y="180" width="1940" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H_BW4GDWvCczrrmpcXVL-4" value="Distribution center vs fulfillment center" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;fontStyle=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="-635" y="130" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H_BW4GDWvCczrrmpcXVL-5" value="Distribution center vs warehouse" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-635" y="255" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H_BW4GDWvCczrrmpcXVL-6" value="Distribution centers store products as well as perform product mixing, &#xa;cross-docking, order fulfillment, and packaging. &#xa;Warehouses store products for longer periods of time. &#xa;On the other hand, distribution centers have a faster flow rate through storage to the store or customer." style="text;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-580" y="300" width="790" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5VOCsd1aI4hgwUPi_Cgb" name="Servicibility-Area">
+    <mxGraphModel dx="758" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vRa2cGV-Zu9djWC0WQWf-1" value="Order-Generating-Location" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="30" y="50" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vRa2cGV-Zu9djWC0WQWf-2" value="Address -&amp;gt; Latitude,Longitude, Pincode,&amp;nbsp;&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="55" y="95" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vRa2cGV-Zu9djWC0WQWf-3" value="Available Delivery Modes." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="55" y="135" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vRa2cGV-Zu9djWC0WQWf-4" value="Available Inventory for SKU." style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="55" y="165" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vRa2cGV-Zu9djWC0WQWf-5" value="Just in time ordering for SKU" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="55" y="200" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vRa2cGV-Zu9djWC0WQWf-6" value="Expected delivery time for SKU" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="50" y="240" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vRa2cGV-Zu9djWC0WQWf-7" value="Expected price + delivery charges for SKU" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="50" y="280" width="340" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cjFC7RrRuom3GU038bt_" name="Vans">
+    <mxGraphModel dx="758" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sOPQxpD_wShXKgGTSx9P-1" value="Things to solve" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="25" y="45" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sOPQxpD_wShXKgGTSx9P-3" value="Minimum number / Equally distributed" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="45" y="75" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sOPQxpD_wShXKgGTSx9P-4" value="Minimum mileage&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="45" y="105" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddTaAvkwjjwta9A-ikZ1-1" value="Features" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="30" y="260" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddTaAvkwjjwta9A-ikZ1-2" value="Van groupping" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="30" y="420" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddTaAvkwjjwta9A-ikZ1-3" value="Constraints" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="30" y="530" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddTaAvkwjjwta9A-ikZ1-5" value="Weight,Volume,temprature, size, gate type hazmat, order_count,&amp;nbsp; &amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="60" y="560" width="520" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ddTaAvkwjjwta9A-ikZ1-6" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="80" y="460" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="GEjJ8WPCbM0-2mKFNaot" name="DeliveryAssociates">
+    <mxGraphModel dx="758" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Wm2csYM7k5WjrhX1uwnV-1" value="Things to solve" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="35" y="45" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm2csYM7k5WjrhX1uwnV-2" value="Rostering" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="90" y="85" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Wm2csYM7k5WjrhX1uwnV-3" value="Utilisation , better payment&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="90" y="115" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lwZchMy0sQT2MpJ8cUNe" name="Control-Tower">
+    <mxGraphModel dx="758" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SB0UP3bab6F0tSzgMUAS-1" value="Van utilisations" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="65" y="55" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SB0UP3bab6F0tSzgMUAS-2" value="Delivery associates utilisation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="65" y="95" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SB0UP3bab6F0tSzgMUAS-3" value="Control Tower" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="65" y="140" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="d8Vd5plbhgDAPGNWfhOd" name="Product">
+    <mxGraphModel dx="758" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C7t_P_xCs2XetDurIOFb-1" value="High Margin Product" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="55" y="55" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C7t_P_xCs2XetDurIOFb-2" value="Highest selling Product" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="55" y="85" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="r3OLiVUtYwlytTFjYqNE" name="Replenishment ">
+    <mxGraphModel dx="758" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EOtIudhrHj7MW1UiucuO-1" value="Self learning replenishment system" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="30" y="60" width="280" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
